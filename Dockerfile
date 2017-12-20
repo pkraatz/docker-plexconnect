@@ -1,4 +1,4 @@
-FROM resin/raspberrypi3-alpine:3.4
+FROM resin/raspberrypi3-alpine:3.5
 RUN apk add --update \
 python \
 py-pillow \
