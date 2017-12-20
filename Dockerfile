@@ -1,5 +1,5 @@
 FROM arm32v6/alpine:3.5
-RUN apk -U add \
+RUN apk add --update \
 python \
 py-pillow \
 git \
