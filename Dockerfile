@@ -1,4 +1,4 @@
-FROM alpine
+FROM resin/raspberry-pi-alpine:3.4
 RUN apk -U add \
 python \
 py-pillow \
